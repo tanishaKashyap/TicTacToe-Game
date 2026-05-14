@@ -1,0 +1,70 @@
+body{
+    padding:0;
+    margin:0;
+    text-align: center;
+    background-color: #6ABEA7;
+}
+
+.box-container{
+    height:70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.game{
+    height:60vmin;
+    width:60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap:0.7rem;
+}
+
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    border: 1px solid gray;
+    font-size: 2.5rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fff;
+}
+
+#reset-btn, #new-game{
+    background-color: black;
+    color:white;
+    border-radius: 0.5rem;
+    padding:0.7rem;
+    font-size: 1rem;
+}
+
+#msg{
+    font-size: 1.7rem;
+    color:blueviolet;
+    font-weight: 700;
+}
+
+.red{
+    color:red;
+}
+
+.blue{
+    color:blue;
+}
+
+.hide{
+    display: none;
+}
+
+.unhide{
+    height:100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap:0.5rem;
+    justify-content: center;
+}
+
